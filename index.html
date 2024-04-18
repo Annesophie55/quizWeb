@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1><span>Quizz</span> Culture web.</h1>
+        <form action="">
+            <div class="question q1">
+                <legend>Qui a inventé le World Wide Web (www) ?</legend>
+
+                <div class="block">
+                    <input type="radio" name="Q1" value="a">
+                    <p>Bill Gates</p> 
+                </div>
+                <div class="block">
+                    <input type="radio" name="Q1" value="b">
+                    <p>Steve Jobs<p>
+                </div>
+                <div class="block">
+                    <input type="radio" name="Q1" value="c">
+                    <p>Tim Berners-Lee<p>
+                </div>
+            </div>    
+            <div class="question q2">
+                <legend>Quel est le langage de programmation le plus utilisé dans le monde ?</legend>
+                <div class="block">
+                    <input type="radio" name="Q2" value="a">
+                    <p>Python</p>
+                </div>
+                <div class="block">
+                    <input type="radio" name="Q2" value="b">
+                    <p>JavaScript<p>
+                </div>
+                <div class="block">
+                    <input type="radio" name="Q2" value="c">
+                    <p>Java</p>i
+                </div>
+            </div>
+
+            <div class="question q3">
+                <legend>Comment afficher "Hello World" dans la console en JavaScript ?</legend>
+            <div class="block">    
+                <input type="radio" name="Q3" value="a">
+                <p>#Hello World</p>
+            </div>
+            <div class="block">
+                <input type="radio" name="Q3" value="b">
+                <p>print("Hello World")</p>
+            </div>
+            <div class="block">
+                <input type="radio" name="Q3" value="c">
+                <p>console.log("Hello World")</p>
+            </div>
+            </div>
+
+            <div class="question q4">
+                <legend>Qu'est-ce que l'open source ?</legend>
+            <div class="block">    
+                <input type="radio" name="Q4" value="a">
+                <p>Un logiciel gratuit</p>
+            </div>
+            <div class="block">
+                <input type="radio" name="Q4" value="b">
+                <p>Un logiciel dont le code source est accessible à tous</p>
+            </div>
+            <div class="block">
+                <input type="radio" name="Q4" value="c">
+                <p>Un logiciel avec une interface utilisateur facile à utiliser</p>
+            </div>
+            </div>
+
+            <div class="question q5">
+                <legend>Quelle entreprise est le plus grand fournisseur de services dans le monde ?</legend>
+            <div class="block">
+                <input type="radio" name="Q5" value="a">
+                <p>Amazon Web Services</p>
+            </div>
+            <div class="block">
+                <input type="radio" name="Q5" value="b">
+                <p>Google cloud Plateform</p>
+            </div>
+            <div>
+                <input type="radio" name="Q5" value="c">
+                <p>Microsoft Azure</p>
+            </div>
+            </div>
+
+            <button type="submit">Valider</button>
+        </form>
+        <div class="footer">
+            <p>Cliquer sur <em>valdier</em> pour voir les <em>résultats.</em></p>
+        </div>
+        <div><p class="score"></p></div>
+        <div><p class="txt"></p></div>
+    </div>
+
+  <script src="app.js"></script>  
+</body>
+</html>
